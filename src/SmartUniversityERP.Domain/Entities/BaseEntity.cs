@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartUniversityERP.Domain.Entities
+namespace SmartUniversityERP.Domain.Entities;
+
+public abstract class BaseEntity
 {
-    internal class BaseEntity
-    {
-    }
+    public int Id { get; set; }
 }
