@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SmartUniversityERP.Application\SmartUniversityERP.Application.csproj" />
+    <ProjectReference Include="..\SmartUniversityERP.Infrastructure\SmartUniversityERP.Infrastructure.csproj" />
+    <ProjectReference Include="..\SmartUniversityERP.Persistence\SmartUniversityERP.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
